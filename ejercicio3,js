@@ -1,0 +1,17 @@
+var beatles = ["John Lennon","Paul McCartney","George Harrison","David Bowie"];
+beatles.pop();
+beatles.push("Ringo Starr");
+console.log(beatles);
+//OBJETOS
+const movie = {
+    name: "Avatar",
+    director: "James Cameron",
+    year: 2009,
+    cast: ["Sam Worthington","Zoe Saldaña","Sigourney Weaver"],
+    realesed: true
+}
+const movieName = movie["name"];
+console.log(movieName);
+//Modificando keys del objeto
+movie["name"] = "Titanic";
+console.log(movie);
